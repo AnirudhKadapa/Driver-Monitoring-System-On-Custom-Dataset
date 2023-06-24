@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Talking_on_phone', 'Texting_on_phone', 'safe_driving']
+
+roboflow:
+  workspace: wilp
+  project: ddms
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/wilp/ddms/dataset/2
